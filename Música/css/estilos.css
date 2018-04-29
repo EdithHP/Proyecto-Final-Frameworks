@@ -46,8 +46,24 @@ a{
 	background-color: #ffffff;
 	color: #000000;
 }
+.container-fluid{
+	width: 87%;
+	margin: auto;
+}
+.container-fluid div[class*="jumbotron"]{
+	background-color: #ffffff;
+	border-radius: 10px 10px 0px 0px;
+}
+.img-comentario{
+	padding: 0;
+}
 
 @media (max-width: 770px){
+	.container{
+	width: 100%;
+	margin: auto;
+	padding: 0;
+	}
 	.navbar-header{
 		margin: auto;
 	}
@@ -56,5 +72,19 @@ a{
 	}
 	ul{
 		padding-top: 1.5rem;
+	}
+	.columna{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.container-fluid{
+		width: 100%;
+		margin: auto;
+		padding: 0;
 	}
 }
