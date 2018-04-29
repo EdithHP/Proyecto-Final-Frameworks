@@ -101,4 +101,7 @@ span{
 		margin: auto;
 		padding: 0;
 	}
+	.nomostrar{
+		display: none;
+	}
 }
