@@ -43,12 +43,8 @@ a{
 }
 .nav-link:hover{
 	border-color: #000000 !important;
-	background-color: #ffffff;
+	background-color: #fffdf1;
 	color: #000000;
-}
-.container-fluid{
-	width: 87%;
-	margin: auto;
 }
 .container-fluid div[class*="jumbotron"]{
 	background-color: #ffffff;
@@ -56,6 +52,24 @@ a{
 }
 .img-comentario{
 	padding: 0;
+	width: 20%;
+}
+span{
+	padding: 0;
+	width: 3rem;
+}
+#menu{
+	padding-left: 2rem;
+}
+#lateral li{
+	display: inline;
+	border: 1px solid #ccd1d1;
+	border-radius: 10px;
+	width: 100%;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 0.001rem;
+	padding-bottom: 0.001rem;
 }
 
 @media (max-width: 770px){
