@@ -7,24 +7,30 @@ body{
 .contenido{
   width: 80%;
   background-color: #1b6278;
-  opacity: 0.7;
+  opacity: 0.9;
   padding: 1rem;
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
 }
 .titulo{
-  display: flex;
-  flex-direction: column;
   border-right: 1px solid white;
-  width: 40%;
   color: white;
-  padding: 1rem;
-}
-.eslogan{
-  align-self: flex-end;
+  padding-right: 1rem;
 }
 .cabecera{
   border-bottom: 1px solid white;
   padding-bottom: 1rem;
+}
+.espacio{
+  padding-top: 1rem;
+}
+.favoritos{
+  padding-top: 2rem;
+}
+h6, h4, a, .subheader{
+  color: #ff0068;
+}
+table tbody{
+  background-color: #fff3d9;
 }
