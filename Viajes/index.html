@@ -1,28 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title></title>
-  </head>
-  <body>
-    <div class="row">
-      <div class="s12 col teal lighten-5">
-        cabecera
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <title>Blog de Turismo</title>
+</head>
+
+<body>
+  <div class="row">
+    <div class="s2 l2 col cabecera">
+      <a href="#"><img src="img/bol.png" alt="logo" class="responsive-img logo z-depth-4"></a>
+    </div>
+    <div class="s10 l10 col">
+      <div class="row">
+        <nav>
+            <ul class="right show-on-large">
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">eject</i>Inicio</a></li>
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">place</i>Estuve en...</a></li>
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">star</i>Mejores viajes</a></li>
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">feedback</i>recomentaciones</a></li>
+            </ul>
+            <ul class="right show-on-small">
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">eject</i></a></li>
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">place</i></a></li>
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">star</i></a></li>
+              <li><a href="#" class="waves-effect waves-light btn-small"><i class="material-icons left">feedback</i></a></li>
+            </ul>
+        </nav>
       </div>
-      <div class="s12 col">
-        fotos
+      <div class="row">
+        <span class="white-text">
+          <h4><strong><em>Donde lo fantástico es real</em></strong></h4>
+        </span>
       </div>
-      <div class="col s12">
-        articulos
+    </div>
+  </div>
+  <div class="row">
+    <div class="s1 l1 col">
+        <ul>
+          <li><a href="#"><img src="img/fb.png" class="responsive-img ico-i z-depth-4"></a></li>
+          <li><a href="#"><img src="img/tt.png" class="responsive-img ico-i z-depth-4"></a></li>
+          <li><a href="#"><img src="img/pt.png" class="responsive-img ico-i z-depth-4"></a></li>
+          <li><a href="#"><img src="img/yt.png" class="responsive-img ico-i z-depth-4"></a></li>
+          <li><a href="#"><img src="img/in.png" class="responsive-img ico-i z-depth-4"></a></li>
+        </ul>
+    </div>
+    <div class="s11 l11 col">
+      <div class="s4 l4 col">
+          <img src="img/carnaval.jpg" class="foto responsive-img z-depth-3">
+          <img src="img/cb.jpg" class="foto responsive-img z-depth-3">
+      </div>
+      <div class="s4 l4 col">
+        <img src="img/luna.jpg" class="foto responsive-img z-depth-3">
+      </div>
+      <div class="s4 l4 col">
+        <img src="img/copa.jpg" class="foto responsive-img z-depth-3">
+        <img src="img/jesuitas2.jpg" class="foto responsive-img z-depth-3">
+        <img src="img/sc.jpg" class="foto responsive-img z-depth-3">
+      </div>
+    </div>
+
+      <div class="s12 col ">
+        <div class="s8 col">
+          <div class="row blog">
+            <div class="brown lighten-5">
+              <img src="img/uyuni.jpg" class="materialboxed blog responsive-img" style="float:left">
+              <h5>Salar de Uyuni</h5>
+              <div class="chip">
+                30 de Abril 2018
+                <i class="material-icons">content_paste</i>
+              </div>
+              <div class="chip">
+                Ubicación
+                <i class="material-icons">place</i>
+              </div>
+              <p class="flow-text">Ubicado al suroeste de Bolivia, “El Salar de Uyuni” es el más grande del mundo. Esta región semidesértica y de tierras volcánicas encierra en su interior recursos de gran importancia económica como la reserva de 9 millones de toneladas de litio y otros minerales; y paisajes de extraordinaria belleza natural.<br>
+                Conducir en medio de este lago de sal es una experiencia extraordinaria, sobre todo durante el invierno, cuando el azul intenso del cielo contrasta con el blanco brillante de la costra de sal. Cuando el tiempo está nublado se produce el efecto “White – out”, donde el horizonte se difumina hasta desaparecer, haciendo imposible el poder diferenciar la tierra del cielo.</p>
+            </div>
+          </div>
+          <div class="row blog teal">
+            <form class="s12 l12 col">
+              <div class="row">
+                <div class="input-field s6 col white-text">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input type="text" id="icon_prefix" class="validate">
+                  <label for="icon_prefix">Nombre</label>
+                </div>
+                <div class="input-field s6 col white-text">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="icon_email" class="validate">
+                  <label for="icon_email">Correo Electrónico</label>
+                </div>
+              </div>
+              <div class="row">
+                <p class="white-text"><i class="material-icons prefix">insert_comment</i> Comentario</p>
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="s12 l4 col blog">
+          <div class="row center-align brown lighten-5">
+            <img src="img/dizfras.jpg" class="responsive-img autor circle">
+            <hr>
+            <h4>Perfil del Autor</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
       </div>
     </div>
 
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-  </body>
+</body>
+
 </html>
